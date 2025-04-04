@@ -9,7 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"GameplayAbilities"
 			]
 		}
 	],
@@ -24,10 +25,6 @@
 		{
 			"Name": "GameplayAbilities",
 			"Enabled": true
-		},
-		{
-			"Name": "RiderSourceCodeAccess",
-			"Enabled": false
 		}
 	]
 }
